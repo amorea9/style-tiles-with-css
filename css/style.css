@@ -1,6 +1,6 @@
 /* change these */
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Sans&family=Righteous&family=Viga&display=swap");
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
 
@@ -14,14 +14,15 @@ use the fonts in other ways in the font hierarchy etc. */
 
 /* change these */
 :root {
-  --bg-color: red;
-  --link-color: green;
-  --link-hover-color: blue;
-  --color-4: hotpink;
-  --color-5: rebeccapurple;
+  --header-color: rgb(27, 19, 19);
+  --bg-color: #593202;
+  --link-color: #d955d0;
+  --link-hover-color: #f25d07;
+  --color-4: #f249b7;
+  --color-5: #e44242;
 
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
+  --primary-font: "Righteous", cursive;
+  --secondary-font: "Dosis", sans-serif;
   --main-text-color: #000;
 
   --white-space: 1rem;
@@ -37,7 +38,7 @@ a {
 
 button:hover {
   background-color: var(--link-hover-color);
-  transform: scale(3) rotate(40deg);
+  /* transform: scale(3) rotate(40deg); */
 }
 
 button:active {
@@ -65,9 +66,13 @@ footer {
   margin: 0 auto;
   padding: calc(2 * var(--white-space));
 }
+header {
+  background-image: url(/img/60s_pattern.jpg);
+  background-size: contain;
+}
 
 .full-width {
-  background: var(--bg-color);
+  background: var(--header-color);
   color: white;
   width: 100%;
 }
@@ -153,20 +158,20 @@ ul li:last-child {
   margin-right: 5vw;
 }
 
+/* .texture-swatch-1 {
+  background: url(../img/60s_pattern.jpg);
+} */
+
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/60s_pattern.jpg) top left repeat;
 }
 
 .texture-swatch-2 {
-  background: url(../img/subtle_grunge.png) top left repeat;
-}
-
-.texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/60s_curved_lines.jpg);
 }
 
 .texture-swatch-3 {
-  background: url(../img/white_paperboard.png) top left repeat;
+  background: url(../img/60s_flowers_hearts_pattern.jpg) top left repeat;
 }
 
 .images ul {
