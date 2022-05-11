@@ -180,6 +180,10 @@ ul li:last-child {
   margin-right: 5vw;
 }
 
+/* .texture-swatch-1 {
+  background: url(../img/60s_pattern.jpg);
+} */
+
 .texture-swatch-1 {
   background: url(../img/curves.jpg) top left repeat;
   background-size: cover;
