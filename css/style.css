@@ -87,7 +87,7 @@ footer {
   background: var(--footer-color);
 }
 header {
-  background-image: url(/img/opacity75.svg);
+  background-image: url(../img/opacity75.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
